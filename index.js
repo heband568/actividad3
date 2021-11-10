@@ -3,7 +3,7 @@ import './style.css';
 //Gráfico de columnas. Mi 1º gráfico
 var visualization = d3plus.viz()
  .container("#viz2")
- .data([{"year": 1991, "name":"alpha", "value": 20},
+ .data([{"year": 1991, "name":"alpha", "value": 15},
         {"year": 1992, "name":"alpha", "value": 20},])
  .type("bar")
  .id("name")
@@ -30,7 +30,7 @@ var visualization = d3plus.viz()
   {"year": 1994, "name":"delta", "value": 32}
 ]
 var visualization = d3plus.viz()
-  .container("#viz")
+  .container("#viz3")
   .data(data)
   .type("bar")
   .id("name")
